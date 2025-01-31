@@ -44,7 +44,7 @@ export default function Pokedex(){
  useEffect(()=>{
     const AC = new AbortController();
 
-    fetch('https://pokebuildapi.fr/api/v1/pokemon/limit/10',{signal: AC.signal})
+    fetch('https://pokebuildapi.fr/api/v1/pokemon/limit/20',{signal: AC.signal})
     .then(response => response.json())
     .then(json=>{
         console.log("fetch!");
