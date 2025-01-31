@@ -1,0 +1,45 @@
+/*------------ header css start ------------*/
+
+#app_header{
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  header {
+    background-color: #111111;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  #header1{
+    width: 200px;
+  }
+  .navbar-toggler{ 
+    border: #6b6b6b 1px solid;
+    background-color: #222222;
+    box-shadow: none;
+  }
+  .navbar-toggler>span{
+    filter: invert(1);
+  }
+  #header2{
+    width: 100%;
+  }
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  .nav-item a{
+    color: #f4f4f4;
+  }
+  .nav-item a:active{
+    color: #7762d6 ;
+  }
+  .nav-item a:hover{
+    color: #7762d6 ;
+  }
+  
+  #logo{
+    width: 200px;
+  }
+  /*------------ header css end ------------*/

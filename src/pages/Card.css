@@ -1,0 +1,30 @@
+.card-user{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;;
+}
+article{
+    margin: 10px;
+}
+.card{
+    background-color: #ffffff;
+    min-height: 260px;
+    max-height: 260px;
+    min-width: 250px;
+    max-width: 280px;
+    box-sizing: border-box;
+  
+}
+.blue{
+    background-color: #3b91b3;
+}
+.rose{
+    background-color: #ea9aec;
+}
+.yellow{
+    background-color: #e2e1a2;
+}
+.card-border{
+    outline: 4px rgb(218, 218, 218) solid;
+    border-radius: 2%;
+}

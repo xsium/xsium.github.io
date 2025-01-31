@@ -1,0 +1,28 @@
+/* Custom css Start here */
+
+/* Custom cssclass Start here */
+/* Custom cssclass end here */
+  
+  
+  
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #111111;
+  color: white;
+  min-height: 100vh;
+}
+#root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+}
+main{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+#wrap{
+  flex: 1;
+}

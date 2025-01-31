@@ -1,0 +1,9 @@
+/*------------ footer css start ------------*/
+footer{
+  flex-shrink: 0;
+}
+footer div{
+    width: 100%;
+    text-align: right;
+  }
+/*------------ footer css end ------------*/
