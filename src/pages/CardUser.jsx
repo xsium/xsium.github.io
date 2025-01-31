@@ -11,7 +11,7 @@ export default function Carduser({Users}){
     });
     return(
       <>
-      <h1>CardUser</h1>
+      <h2>CardUser</h2>
       <input className='m-4' type="text" placeholder='Chercher un pseudo...' onChange={(event)=>{setSearch(event.target.value);}}/>
       <h1>Liste des Utilisateurs:</h1>
       <div className='card-list'>

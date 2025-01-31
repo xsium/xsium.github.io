@@ -122,16 +122,16 @@ export default function Calendar(){
         }
         
     }
-    console.log(eventList);
+
     
   }
-
+  console.log(eventList);
 
 
   return (
     <>
     <div>
-        <h1 className='text-center'>Calendar</h1>
+        <h2 className='text-center'>Calendar</h2>
     <div className='calendar-wrap'>
     <FormCalendar onSubmit={handleSubmit}/>
     <article className='card'id='calendar'>

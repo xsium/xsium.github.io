@@ -54,7 +54,7 @@ export default function ToDoList({children}){
   
     return (
       <article className='todolist'>
-        <h1 className='text-center'>Ma ToDo List :</h1>
+        <h2 className='text-center'>Ma ToDo List :</h2>
         <h2>{currentDate}</h2>
         <div className='mx-auto container'>
             <h2>Catégories</h2>

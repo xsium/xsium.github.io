@@ -6,6 +6,9 @@
     background-color: rgba(66, 66, 66, 0.5);
     border-radius: 5px;
 }
+.section h2{
+    font-size:2rem ;
+}
 #calendar{
     min-width: fit-content;
     min-height: 390px;

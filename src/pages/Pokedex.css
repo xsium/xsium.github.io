@@ -1,0 +1,20 @@
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 2px white solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.pokemon img{
+    width: 200px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.select{
+    background-color: aliceblue;
+}
+.pokemon p img{
+    width: 30px;
+}

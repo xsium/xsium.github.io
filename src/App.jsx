@@ -6,6 +6,7 @@ import CardUser from './pages/CardUser'
 import Calendar from './pages/Calendar'
 import ToDoList from './pages/ToDoList'
 import PageError from './pages/PageError'
+import Pokedex from './pages/Pokedex'
 import reactlogo from './assets/react.svg'
 import './App.css'
 import Footer from './Footer';
@@ -68,7 +69,15 @@ const router = createBrowserRouter([
                     </ToDoList>
                     </div>
                     </section>
-            }
+            },
+            { path: "pokedex",
+              element:
+                    <section>
+                    <div className='mx-auto container'>
+                    <Pokedex />
+                    </div>
+                    </section> 
+            },
           ]
         },
         {
@@ -82,7 +91,7 @@ function Root() {
   return (
     <>
     <header>
-      <h1>TP React Router</h1>
+      <h2>TP React Router</h2>
       <nav>
         <Link to="/">Accueil</Link> | 
         <Link to="/portfolio">Portfolio</Link> | 
